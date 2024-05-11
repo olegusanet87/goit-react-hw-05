@@ -1,0 +1,50 @@
+.cart {
+    text-decoration: none;
+}
+
+.container {
+    width: 340px;
+    display: flex;
+    padding: 8px 8px 12px 8px;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #1d6de6;
+    border-radius: 8px;
+}
+
+.image {
+    width: 340px;
+    height: 192px;
+    border-radius: 8px;
+    background-image: url("https://www.shibafarm.be/images/no-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.title {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f1e3d5;
+}
+
+.year {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f1e3d5;
+}
+
+.divTitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4px;
+}
