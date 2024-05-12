@@ -4,12 +4,7 @@ import css from '../Loader/Loader.module.css';
 export default function Loader() {
   return (
     <div className={css.loader}>
-      <RotatingLines
-        visible={true}
-        height="32"
-        width="32"
-        strokeColor="yellow"
-      />
+      <RotatingLines visible={true} height="32" width="32" strokeColor="blue" />
     </div>
   );
 }
